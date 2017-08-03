@@ -1,3 +1,3 @@
-export let add = function (a, b) {
+export default add = function (a, b) {
   return a + b;
 };
