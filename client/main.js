@@ -16,26 +16,6 @@ const players = [{
     score: -12
 }];
 
-// const renderPlayers = function (playersList) {
-//     let numbers = [{val: 1}, {val: 2}, {val: 3}];
-
-//     let newNumbers = numbers.map(function (number) {
-//         // return number.val - 1;
-//         return <p key={number.val}>{number.val}</p>;
-//     });
-//     console.log(newNumbers);
-
-//     return [<p key="1">1</p>, <p key="2">2</p>, <p key="3">3</p>]
-// };
-
-// const renderPlayers = function (playersList) {
-//     let numbers = [{val: 9}, {val: 2}, {val: 3}, {val: 101}];
-
-//     return numbers.map(function (number) {
-//         return <p key={number.val}>Andrew has -12 point(s)</p>;
-//     });
-// };
-
 const renderPlayers = function (playersList) {
     return playersList.map(function (player) {
         return <p key={player._id}>{player.name} has {player.score} point(s).</p>;
