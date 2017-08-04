@@ -5,3 +5,8 @@ export let greetUser = function () {
 };
 
 export let name = 'Faza Fahamsyah';
+
+// export default 'Default val';
+
+let myDefault = 'some default value';
+export default myDefault;

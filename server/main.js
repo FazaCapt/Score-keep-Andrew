@@ -1,7 +1,4 @@
-// import './../imports/utils';
-// import {greetUser} from './../imports/utils';
-// import add from './../imports/math';
-// import './../imports/utils2';
+
 import {greetUser, name} from './../imports/utils2';
 import add from './../imports/math2';
 
